@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Hack-Tool",
+    "desc": "Framework CLI berbasis Python yang menggabungkan puluhan tools untuk information gathering, wireless attack, SQL injection, phishing, web attack, hingga forensic dalam satu menu interaktif.",
+    "icon": "fa-toolbox",
+    "color": "#1b6e3c",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/Hack-Tool"
+    }
+  },
+  {
+    "name": "RedTeaming CheatSheet",
+    "desc": "Kumpulan cheatsheet & command teknik Red Teaming/pentest: Windows Active Directory, privilege escalation, C2 framework (Cobalt Strike, Covenant, Metasploit), cloud security, dan OSINT.",
+    "icon": "fa-user-ninja",
+    "color": "#a4272c",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/RedTeaming_CheatSheet"
+    }
+  },
+  {
+    "name": "THM Offensive Security",
+    "desc": "Dokumentasi penyelesaian room-room TryHackMe (Alfred, HackPark, Game Zone, Skynet, dan lainnya) sebagai latihan penetration testing dari sisi offensive security.",
+    "icon": "fa-flag",
+    "color": "#0b7285",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/THM-Offensive-Security"
+    }
+  },
+  {
+    "name": "HackTheBox Writeups",
+    "desc": "Dokumentasi & script hasil penyelesaian challenge dari platform Hack The Box sebagai latihan exploitation dan post-exploitation.",
+    "icon": "fa-cube",
+    "color": "#5c8a00",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/HackTheBox"
+    }
+  }
+]
