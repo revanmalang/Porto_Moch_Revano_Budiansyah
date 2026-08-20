@@ -38,5 +38,35 @@
     "links": {
       "code": "https://github.com/revanmalang/HackTheBox"
     }
+  },
+  {
+    "name": "Garuda-Sentry",
+    "desc": "Tools cyber threat intelligence untuk mendeteksi konten judi online (judol) dan defacement pada situs pemerintah (.go.id) dan akademik (.ac.id) — async mass scanning, deteksi konten heuristik, serta rekonesans DNS/WHOIS/ASN untuk pelaporan bukti digital.",
+    "icon": "fa-satellite-dish",
+    "color": "#1b4f72",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/Garuda-Sentry"
+    }
+  },
+  {
+    "name": "CermatKuy",
+    "desc": "Sistem deteksi & verifikasi awal berita hoaks yang menganalisis pola bahasa, sensasionalisme, dan reputasi sumber secara transparan untuk membantu menilai kredibilitas berita.",
+    "icon": "fa-newspaper",
+    "color": "#0e7c86",
+    "category": "web",
+    "links": {
+      "code": "https://github.com/revanmalang/CermatKuy"
+    }
+  },
+  {
+    "name": "SIDIK",
+    "desc": "Meja forensik digital mini untuk memeriksa indikasi manipulasi pada gambar (EXIF & Error Level Analysis), teks, dan dokumen PDF — 100% berjalan lokal tanpa upload ke server manapun.",
+    "icon": "fa-fingerprint",
+    "color": "#6c3483",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/sidik"
+    }
   }
 ]
