@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://revanmalang.github.io/Porto_Moch_Revano_Budiansyah/sitemap.xml

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Hack-Tool",
+    "desc": "Framework CLI berbasis Python yang menggabungkan puluhan tools untuk information gathering, wireless attack, SQL injection, phishing, web attack, hingga forensic dalam satu menu interaktif.",
+    "icon": "fa-toolbox",
+    "color": "#1b6e3c",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/Hack-Tool"
+    }
+  },
+  {
+    "name": "RedTeaming CheatSheet",
+    "desc": "Kumpulan cheatsheet & command teknik Red Teaming/pentest: Windows Active Directory, privilege escalation, C2 framework (Cobalt Strike, Covenant, Metasploit), cloud security, dan OSINT.",
+    "icon": "fa-user-ninja",
+    "color": "#a4272c",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/RedTeaming_CheatSheet"
+    }
+  },
+  {
+    "name": "THM Offensive Security",
+    "desc": "Dokumentasi penyelesaian room-room TryHackMe (Alfred, HackPark, Game Zone, Skynet, dan lainnya) sebagai latihan penetration testing dari sisi offensive security.",
+    "icon": "fa-flag",
+    "color": "#0b7285",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/THM-Offensive-Security"
+    }
+  },
+  {
+    "name": "HackTheBox Writeups",
+    "desc": "Dokumentasi & script hasil penyelesaian challenge dari platform Hack The Box sebagai latihan exploitation dan post-exploitation.",
+    "icon": "fa-cube",
+    "color": "#5c8a00",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/HackTheBox"
+    }
+  },
+  {
+    "name": "Garuda-Sentry",
+    "desc": "Tools cyber threat intelligence untuk mendeteksi konten judi online (judol) dan defacement pada situs pemerintah (.go.id) dan akademik (.ac.id) — async mass scanning, deteksi konten heuristik, serta rekonesans DNS/WHOIS/ASN untuk pelaporan bukti digital.",
+    "icon": "fa-satellite-dish",
+    "color": "#1b4f72",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/Garuda-Sentry"
+    }
+  },
+  {
+    "name": "CermatKuy",
+    "desc": "Sistem deteksi & verifikasi awal berita hoaks yang menganalisis pola bahasa, sensasionalisme, dan reputasi sumber secara transparan untuk membantu menilai kredibilitas berita.",
+    "icon": "fa-newspaper",
+    "color": "#0e7c86",
+    "category": "web",
+    "links": {
+      "code": "https://github.com/revanmalang/CermatKuy"
+    }
+  },
+  {
+    "name": "SIDIK",
+    "desc": "Meja forensik digital mini untuk memeriksa indikasi manipulasi pada gambar (EXIF & Error Level Analysis), teks, dan dokumen PDF — 100% berjalan lokal tanpa upload ke server manapun.",
+    "icon": "fa-fingerprint",
+    "color": "#6c3483",
+    "category": "security",
+    "links": {
+      "code": "https://github.com/revanmalang/sidik"
+    }
+  }
+]
