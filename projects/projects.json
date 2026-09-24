@@ -1,5 +1,15 @@
 [
   {
+    "name": "TukangWeb",
+    "desc": "Landing page brand jasa pembuatan website: layanan, portfolio, cara kerja, FAQ, dan form brief yang terhubung langsung ke WhatsApp. Dibuat dengan HTML, CSS, dan JavaScript, responsive untuk desktop, Android, dan iOS.",
+    "icon": "fa-globe",
+    "color": "#0e7490",
+    "category": "web",
+    "links": {
+      "live": "https://tukangweb.vercel.app/"
+    }
+  },
+  {
     "name": "Hack-Tool",
     "desc": "Framework CLI berbasis Python yang menggabungkan puluhan tools untuk information gathering, wireless attack, SQL injection, phishing, web attack, hingga forensic dalam satu menu interaktif.",
     "icon": "fa-toolbox",

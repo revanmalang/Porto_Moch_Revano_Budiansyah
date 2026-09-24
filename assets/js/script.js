@@ -126,6 +126,13 @@ async function fetchData(type = "projects") {
     return response.json();
 }
 
+function projectButtons(project) {
+    const links = project.links || {};
+    const live = links.live ? `<a href="${links.live}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Kunjungi Website</a>` : "";
+    const code = links.code ? `<a href="${links.code}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Lihat di GitHub</a>` : "";
+    return live + code;
+}
+
 function renderProjectCard(project) {
     return `
         <div class="box tilt">
@@ -139,7 +146,7 @@ function renderProjectCard(project) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.code}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Lihat di GitHub</a>
+            ${projectButtons(project)}
           </div>
         </div>
       </div>
