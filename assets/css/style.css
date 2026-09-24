@@ -1236,3 +1236,308 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* jasa (TukangWeb) section starts */
+.jasa {
+  min-height: auto;
+  padding: 7rem 9% 6rem;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #050a17, #000031);
+}
+.jasa * {
+  text-transform: none;
+}
+.jasa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background: radial-gradient(60rem 30rem at 15% 0%, rgba(59, 130, 246, 0.25), transparent),
+    radial-gradient(50rem 30rem at 90% 45%, rgba(34, 211, 238, 0.16), transparent);
+}
+.jasa .heading {
+  position: relative;
+  color: #fff;
+}
+.jasa .heading span {
+  color: #22d3ee;
+}
+.jasa .sub {
+  position: relative;
+  max-width: 64rem;
+  margin: 1.2rem auto 0;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #93a6c6;
+}
+.tw-card {
+  position: relative;
+  max-width: 100rem;
+  margin: 4rem auto 0;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 4rem;
+  align-items: center;
+  border-radius: 2rem;
+  border: 1px solid rgba(148, 197, 255, 0.22);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.45), 0 0 8rem rgba(34, 211, 238, 0.08);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.tw-info .tag {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #22d3ee;
+}
+.tw-info h3 {
+  font-size: 5.2rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.tw-info h3 span {
+  background: linear-gradient(90deg, #a5f3fc, #22d3ee 50%, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tw-info .lead {
+  margin: 1.4rem 0 2rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #c3d2ea;
+}
+.tw-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2.6rem;
+  list-style: none;
+}
+.tw-chips li {
+  list-style: none;
+  padding: 0.7rem 1.4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #dbeafe;
+  border: 1px solid rgba(148, 197, 255, 0.25);
+  border-radius: 99rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+.tw-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.4rem 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #04101f;
+  border-radius: 99rem;
+  background: linear-gradient(90deg, #22d3ee, #3b82f6);
+  box-shadow: 0 0.8rem 2.8rem rgba(34, 211, 238, 0.3);
+}
+.tw-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1.2rem 3.6rem rgba(34, 211, 238, 0.45);
+}
+.tw-cta i {
+  transition: transform 0.3s;
+}
+.tw-cta:hover i {
+  transform: translateX(5px);
+}
+.tw-prev {
+  display: block;
+  animation: twfloat 6s ease-in-out infinite;
+}
+.tw-browser {
+  overflow: hidden;
+  border-radius: 1.4rem;
+  border: 1px solid #2b4a7a;
+  background: #0a1226;
+  box-shadow: 0 2.4rem 5rem rgba(0, 0, 0, 0.5), 0 0 5rem rgba(34, 211, 238, 0.15);
+}
+.tw-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 1.2rem;
+  background: #0f1b36;
+}
+.tw-bar i {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: #3b82f6;
+}
+.tw-bar i:nth-child(2) {
+  background: #22d3ee;
+  opacity: 0.7;
+}
+.tw-bar i:nth-child(3) {
+  background: #93a6c6;
+  opacity: 0.5;
+}
+.tw-bar span {
+  flex: 1;
+  margin-left: 1rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 99rem;
+  background: #16274a;
+  color: #93a6c6;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.tw-page {
+  padding: 1.6rem 1.8rem 2rem;
+  color: #eaf2ff;
+  background: radial-gradient(30rem 16rem at 100% 0%, rgba(34, 211, 238, 0.14), transparent), #050a17;
+}
+.tw-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.05rem;
+  color: #93a6c6;
+}
+.tw-nav b {
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.tw-nav b em {
+  font-style: normal;
+  color: #22d3ee;
+}
+.tw-nav .pill {
+  white-space: nowrap;
+  padding: 0.5rem 1.1rem;
+  border-radius: 99rem;
+  font-weight: 700;
+  color: #04101f;
+  background: linear-gradient(90deg, #22d3ee, #3b82f6);
+}
+.tw-hero {
+  padding: 2.4rem 0 1.8rem;
+}
+.tw-hero small {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #22d3ee;
+}
+.tw-hero h4 {
+  margin: 0.8rem 0 1rem;
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.tw-hero h4 em {
+  display: inline-block;
+  font-style: normal;
+  background: linear-gradient(90deg, #fff, #22d3ee, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tw-hero p {
+  max-width: 90%;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #93a6c6;
+}
+.tw-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+.tw-btns span {
+  padding: 0.8rem 1.4rem;
+  border-radius: 99rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.tw-btns .a {
+  color: #04101f;
+  background: linear-gradient(90deg, #22d3ee, #3b82f6);
+}
+.tw-btns .b {
+  color: #eaf2ff;
+  border: 1px solid rgba(148, 197, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+.tw-mini {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+.tw-mini span {
+  padding: 1rem 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 197, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #dbeafe;
+}
+.tw-mini i {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  color: #22d3ee;
+}
+@keyframes twfloat {
+  50% {
+    transform: translateY(-0.8rem);
+  }
+}
+@media (max-width: 860px) {
+  .jasa {
+    padding: 6rem 5% 5rem;
+  }
+  .tw-card {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2.4rem;
+  }
+  .tw-info h3 {
+    font-size: 4.4rem;
+  }
+}
+@media (max-width: 450px) {
+  .jasa {
+    padding: 6rem 2rem 5rem;
+  }
+  .tw-card {
+    padding: 2rem;
+  }
+  .tw-hero h4 {
+    font-size: 2.2rem;
+  }
+  .tw-nav span:not(.pill) {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tw-prev {
+    animation: none;
+  }
+}
+/* jasa (TukangWeb) section ends */
